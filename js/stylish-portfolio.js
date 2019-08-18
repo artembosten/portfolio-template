@@ -74,6 +74,3 @@ document.addEventListener('DOMContentLoaded', function(){
     sizeHeader();
 });
 
-window.addEventListener('resize', function(event){
-    sizeHeader();
-});
