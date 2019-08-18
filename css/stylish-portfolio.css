@@ -93,9 +93,9 @@ h6 {
   height: 86vh;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-color: #f8b600;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(248, 182, 0, 1)));
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(248, 182, 0, 1) 100%);
+  
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 191, 0, 0.1)), to(rgba(248, 182, 0, 1)));
+  background: linear-gradient(90deg, rgba(255, 191, 0, 0.1) 0%, rgba(248, 182, 0, 1) 100%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -217,8 +217,8 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 191, 0, 0.1)), to(rgba(248, 182, 0, 1)));
+  background: linear-gradient(0deg, rgba(255, 191, 0, 0.1) 0%, rgba(248, 182, 0, 1) 100%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -332,8 +332,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #7400f8 !important;
+  border-color: #7400f8 !important;
   color: #fff !important;
 }
 
