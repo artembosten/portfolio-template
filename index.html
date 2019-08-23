@@ -6,7 +6,7 @@
   <script src="js/redirection-mobile.js"></script>
 	<script>
 		SA.redirection_mobile ({
-		  mobile_url : "helpmen.org/mobile",
+		  mobile_prefix : "m",
 		  tablet_redirection : "true"
 	});
 	</script>
@@ -82,8 +82,8 @@
       </div>
       <!-- show an ad script-->
       <script>
-      var path=window.location.pathname
-      if (path=="mobile"){
+      var path=window.location.host.split('.')[0]
+      if (sub=="m"){
         document.getElementById("ad-mobile").style.display = "inline-block";
       }
       else {
